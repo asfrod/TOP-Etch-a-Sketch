@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    }
+
+h1 {
+    text-align: center;
+}
+
+.grids {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    border: 3px solid;
+    margin-bottom: -3px;
+    margin-right: -3px;    
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+}
+
+.classic {
+    background-color: gray;
+}
