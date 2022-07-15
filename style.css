@@ -21,6 +21,19 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eAs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    height: 600px;
 }
 
 .rows {
@@ -34,6 +47,8 @@ h1 {
     margin-right: -3px;    
     width: 40px;
     height: 40px;
+    /*min-width: 10px;
+    min-height: 10px;*/
     background-color: brown;
 }
 
